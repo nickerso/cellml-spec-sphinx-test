@@ -23,8 +23,9 @@ February 2004
 (revised) <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/>`_
 10 February 2004
 
-`Mathematical Markup Language (MathML) Version
-3.0 <http://www.w3.org/TR/2010/REC-MathML3-20101021/>`_ 21 October 2003
+`Mathematical Markup Language (MathML) Version 2.0 (Second
+Edition) <http://www.w3.org/TR/2003/REC-MathML2-20031021/>`_ 21 October
+2003
 
 `XML Linking Language (XLink) Version
 1.0 <http://www.w3.org/TR/2001/REC-xlink-20010627/>`_ 27 June 2001

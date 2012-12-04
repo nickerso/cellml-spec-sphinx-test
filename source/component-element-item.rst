@@ -1,11 +1,8 @@
-.. index::
-   pair: component; element
-
 The component element information item
 ======================================
 
 Component element information items (referred to in this specification
-as component elements) are element information items in the CellML 1.2
+as component elements) are element information items in the CellML 1.1
 namespace with local name ``component``, and which appear as a child of
 a model element.
 

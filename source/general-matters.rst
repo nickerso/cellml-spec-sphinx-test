@@ -4,7 +4,7 @@ General matters
 CellML and XML
 --------------
 
-1. Every CellML Infoset SHALL be represented in an XML document that
+1. Every CellML Infoset SHALL be represented in an XML document which
    conforms with the well-formedness requirements of the XML 1.0
    specification ?.
 
@@ -18,7 +18,7 @@ Equivalent CellML Infosets
 1. Two CellML Infosets shall be equivalent if one can be transformed to
    another by making zero or more of the following changes:
 
-   1. Changing the representation the XML file in ways that do not
+   1. Changing the representation the XML file in ways which do not
       change the XML Information Set represented
 
    2. Adding, removing, and/or modifying comment information items.
@@ -29,8 +29,8 @@ Equivalent CellML Infosets
       information item is in.
 
    4. The following paragraph applies only to character information
-      items for which all ancestor element information items are in the
-      CellML, the MathML or the RDF namespace.
+      items which are the direct child of an element information item in
+      a CellML namespace, or in the MathML or RDF namespace.
 
       Inserting or removing character information items that consist
       entirely of whitespace characters, changing the number of
@@ -38,15 +38,15 @@ Equivalent CellML Infosets
       number of whitespace characters at the beginning or end of a
       character information item.
 
-2. CellML Processing Software MUST treat CellML Infosets that are
+2. CellML Processing Software MUST treat CellML Infosets which are
    equivalent according to the above rules in an identical fashion.
 
 Character information items
 ---------------------------
 
 An element information item in the CellML namespace MUST NOT contain any
-character information items, except for character information items that
-consist entirely of whitespace characters.
+character information items, except for character information items
+which consist entirely of whitespace characters.
 
 Use of namespaces
 -----------------
@@ -54,14 +54,13 @@ Use of namespaces
 1. CellML Infosets MUST NOT contain any element or attribute information
    items, except as permitted in this specification.
 
-2. CellML Infosets MUST NOT contain any character information items that
-   are children of element information items in a CellML namespace,
-   except as permitted in this specification.
+2. CellML Infosets MUST NOT contain any character information items
+   which are children of element information items in a CellML
+   namespace, except as permitted in this specification.
 
 3. CellML Processing Software SHOULD NOT attempt to process CellML
-   Infosets that contain information items in a CellML namespace other
-   than the CellML 1.2 namespaces, unless they have been designed to
-   support the version of CellML corresponding to the namespace.
+   Infosets which contain information items in a CellML namespace other
+   than the CellML 1.1 or CellML 1.2 namespaces.
 
 4. CellML Infosets MUST NOT contain any element information items in the
    RDF namespace, unless:
@@ -92,7 +91,7 @@ Extension information items
    information items in an extension namespace (extension information
    items), as children of CellML Information Items.
 
-2. Information items in the empty namespace, that appear as children of
+2. Information items in the empty namespace, which appear as children of
    extension element information items, SHALL also be treated as
    extension information items.
 
@@ -106,7 +105,7 @@ Extension information items
 4. CellML Processing Software MUST NOT raise an error solely because it
    encounters an unrecognised extension element.
 
-5. CellML Processing Software that reads CellML and then writes a
+5. CellML Processing Software which reads CellML and then writes a
    modified version back out SHOULD preserve unrecognised extension
    information items when the parent information item is not modified.
 
@@ -125,7 +124,7 @@ Identifiers
 Specific information items
 --------------------------
 
-1. A specific information item is an information item that is not:
+1. A specific information item is an information item which is not:
 
    1. a comment information item, or,
 
@@ -165,9 +164,9 @@ RDF Element Information Items
    the RDF Element Information Items according to the RDF/XML
    specification.
 
-5. Two CellML Infosets that differ only by the addition, removal, or
+5. Two CellML Infosets which differ only by the addition, removal, or
    modification of RDF Element Information Items (or Information Items
-   descended from them), but that have the same set of all RDF triples,
+   descended from them), but which have the same set of all RDF triples,
    SHALL be termed RDF-equivalent CellML Infosets.
 
 6. CellML Processing Software MUST NOT treat RDF-equivalent CellML

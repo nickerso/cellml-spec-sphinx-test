@@ -14,15 +14,16 @@ CellML Specification : Unofficial working draft
    
    terminology
    general-matters
-   secondary-specifications
    data-representation
    model-element-item
    component-element-item
    variable-element-item
    connection-element-item
+   map-components-element-item
    map-variables-element
-   encapsulation-element-item
+   group-element-item
    component-ref-element-item
+   relationship-ref-element-item
    import-element-item
    import-component-element-item
    import-units-element-item

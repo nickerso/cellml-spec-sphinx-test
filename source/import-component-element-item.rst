@@ -3,7 +3,7 @@ The import component element information item
 
 Import component element information items (referred to in this
 specification as import component elements) are element information
-items in the CellML 1.2 namespace with local name equal to component
+items in the CellML 1.1 namespace with local name equal to component,
 which appear as children of import elements.
 
 Specific information items

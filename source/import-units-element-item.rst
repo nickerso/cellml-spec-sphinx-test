@@ -3,7 +3,7 @@ The import units element information item
 
 Import units element information items (referred to in this
 specification as import units elements) are element information items in
-the CellML 1.2 namespace with local name equal to units which appear as
+the CellML 1.1 namespace with local name equal to units, which appear as
 children of import elements.
 
 Specific information items

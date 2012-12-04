@@ -2,7 +2,7 @@ The units element information item
 ==================================
 
 Units element information items (referred to in this specification as
-units elements) are element information items in the CellML 1.2
+units elements) are element information items in the CellML 1.1
 namespace with local name equal to units, and with either a component or
 model element as their parent.
 
