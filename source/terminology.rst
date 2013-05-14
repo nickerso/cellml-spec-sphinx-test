@@ -25,28 +25,28 @@ Namespace
     An XML namespace, as defined in ?.
 
 CellML Namespace
-    Any namespace starting with http://www.cellml.org/cellml/
+    Any namespace starting with \http://www.cellml.org/cellml/
 
 CellML 1.1 Namespace
-    The namespace http://www.cellml.org/cellml/1.1#
+    The namespace \http://www.cellml.org/cellml/1.1#
 
 CellML 1.2 Namespace
-    The namespace http://www.cellml.org/cellml/1.2#
+    The namespace \http://www.cellml.org/cellml/1.2#
 
 MathML Namespace
-    The namespace http://www.w3.org/1998/Math/MathML
+    The namespace \http://www.w3.org/1998/Math/MathML
 
 RDF Namespace
-    The namespace http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    The namespace \http://www.w3.org/1999/02/22-rdf-syntax-ns#
 
 CellML Metadata Namespace
-    The namespace http://www.cellml.org/metadata/1.0#
+    The namespace \http://www.cellml.org/metadata/1.0#
 
 Extension Namespace
     Any namespace which is not a CellML namespace, and is not the RDF
     namespace, the MathML namespace,
-    http://www.w3.org/XML/1998/namespace, http://www.w3.org/2000/xmlns/,
-    http://www.w3.org/1999/xlink, or the empty namespace.
+    \http://www.w3.org/XML/1998/namespace, \http://www.w3.org/2000/xmlns/,
+    \http://www.w3.org/1999/xlink, or the empty namespace.
 
 Basic Latin alphabetic character
     A Unicode character in the range U+0041 to U+005A or in the range
