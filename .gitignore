@@ -1,0 +1,5 @@
+# Editor backups
+*~
+
+# The Sphinx build folder
+/build

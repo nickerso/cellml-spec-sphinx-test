@@ -19,7 +19,7 @@ CellML Specification : Unofficial working draft
    component-element-item
    variable-element-item
    connection-element-item
-   map-components-element-item
+   map-components-element
    map-variables-element
    group-element-item
    component-ref-element-item

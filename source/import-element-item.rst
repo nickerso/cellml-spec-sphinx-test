@@ -9,7 +9,7 @@ Specific information items
 --------------------------
 
 1. Every import element MUST contain an attribute information item in
-   the namespace http://www.w3.org/1999/xlink, and with local name href.
+   the namespace \http://www.w3.org/1999/xlink, and with local name href.
    The value of this attribute SHALL be a valid locator href, as defined
    in section 5.4 of the XLink specification (?). The href attribute
    SHALL be treated according to the XLink specification, by applying
