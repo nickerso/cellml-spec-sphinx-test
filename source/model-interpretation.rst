@@ -72,8 +72,8 @@ Interpretation of grouping
 
 4.  The term encapsulation digraph SHALL refer to the relationship
     digraph for the relationship corresponding to the relationship\_ref
-    attribute in the empty namespace and with value "encapsulation", and
-    with no name attribute.
+    attribute in the empty namespace and with value "encapsulation" (and
+    with no name attribute).
 
 5.  The encapsulation digraph MUST NOT contain any loops, and MUST NOT
     contain any cycles in the underlying graph (that is, it must be a
