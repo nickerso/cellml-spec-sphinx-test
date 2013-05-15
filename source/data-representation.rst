@@ -46,12 +46,14 @@ specification:
 
    3. MAY contain a single decimal point separator, which SHALL be the
       basic Latin full stop character U+002E.
+
    4. Other than the sign indicator and the decimal point separator,
       SHALL consist only of European numeric characters.
 
 5. A real number string:
 
-   1. SHALL be a base 10 representation of a real number r = s × 10 e,
+   1. SHALL be a base 10 representation of a real number
+      r = s × 10\ :sup:`e`,
       where s is the significand, a real number, and e is the exponent,
       an integer.
 
