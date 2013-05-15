@@ -109,6 +109,9 @@ Extension information items
    interpretation of a CellML Model to be altered by any information
    present in extension information items.
 
+7. For the avoidance of doubt, extension information items MUST NOT
+   contain CellML information items as descendents.
+
 Identifiers
 -----------
 
@@ -148,24 +151,26 @@ RDF Element Information Items
 2. An RDF Element Information Item SHALL be an element item in the RDF
    namespace, with local name ``RDF`` (the RDF element information
    item), and MUST form the top-level of a valid RDF/XML tree, per
-   production 7.2.9 in ?, and SHALL be a child of an element information
-   item in the CellML namespace.
+   production 7.2.9 in ?.
 
-3. CellML Processing Software MUST NOT allow the mathematical
+3. An RDF Element Information Item MUST NOT appear in a CellML Infoset
+   except as allowed by rule 1 above.
+
+4. CellML Processing Software MUST NOT allow the mathematical
    interpretation of a CellML Model to be altered by any information
    present in RDF data.
 
-4. The "set of all RDF triples" associated with a CellML Infoset SHALL
+5. The "set of all RDF triples" associated with a CellML Infoset SHALL
    refer to the union of all sets of RDF triples produced by parsing all
    the RDF Element Information Items according to the RDF/XML
    specification.
 
-5. Two CellML Infosets which differ only by the addition, removal, or
+6. Two CellML Infosets which differ only by the addition, removal, or
    modification of RDF Element Information Items (or Information Items
    descended from them), but which have the same set of all RDF triples,
    SHALL be termed RDF-equivalent CellML Infosets.
 
-6. CellML Processing Software MUST NOT treat RDF-equivalent CellML
+7. CellML Processing Software MUST NOT treat RDF-equivalent CellML
    Infosets differently.
 
 

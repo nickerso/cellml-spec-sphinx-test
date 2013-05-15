@@ -347,9 +347,9 @@ Interpretation of units
    built-in base units (those units defined in rows of ? having 'yes' in
    the 'Is base unit?' column).
 
-2. There SHALL be one user defined base unit for every units element
-   which has a base\_units attribute in the empty namespace, having
-   value yes.
+2. There SHALL be one user defined base unit for every units element in the
+   CellML Model which has a base\_units attribute in the empty namespace,
+   having value yes.
 
 3. The base unit reduction of a units reference SHALL consist of a real
    valued offset, a real valued multiplier, and a set of tuples each
@@ -473,19 +473,21 @@ Interpretation of initial values
 2. The initial\_value attribute MUST either be a real number string, or
    a variable reference.
 
-3. TO DO: Need a reasonable definition of the conditions when the
-   initial\_value holds, because we can't really use the 1.1 version
-   because it is problematic for a number of reasons.
-
-4. Where the initial\_value attribute has a real number value, it SHALL
+3. Where the initial\_value attribute has a real number value, it SHALL
    be interpreted as a statement that the variable on which the
    attribute appears is equal to that real number value, under the
-   conditions that the initial value holds.
+   conditions when the initial value holds.
 
-5. Where the initial\_value attribute is a variable reference, it SHALL
+4. Where the initial\_value attribute is a variable reference, it SHALL
    be interpreted as a statement that the variable on which the
    attribute appears is equal to the referenced variable under the
-   conditions the initial value holds.
+   conditions when the initial value holds.
+
+.. todo::
+
+   Need a reasonable definition of the conditions when the
+   initial\_value holds, because we can't really use the 1.1 version
+   because it is problematic for a number of reasons.
 
 Interpretation of imports
 -------------------------
