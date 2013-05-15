@@ -404,8 +404,7 @@ Interpretation of units
          real number value of the multiplier attribute information item
          on the units element (or 1.0 in the absence of such an
          attribute information item), multiplied by 10.0 raised to the
-         power of the negative of the product of the prefix term and the
-         exponent term.
+         power of the product of the prefix term and the exponent term.
 
       4. The offset term is a conceptual property of unit elements,
          defined here for later use. If a unit element has no offset
