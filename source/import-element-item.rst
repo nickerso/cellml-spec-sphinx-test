@@ -21,7 +21,7 @@ Specific information items
 2. Every import element MAY contain zero or more specific information
    children, each of which MUST be of one of the following types:
 
-   1. an import component element (?).
+   1. an import component element (?),
 
    2. an import units element (?).
 

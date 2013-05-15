@@ -1,7 +1,7 @@
 The map\_components element information item
 ============================================
 
-map\_components element information items (referred to in this
+Map\_components element information items (referred to in this
 specification as map\_components elements) are element information items
 in the CellML 1.1 namespace with local name equal to map\_components,
 and which appear as a child of a connection element.

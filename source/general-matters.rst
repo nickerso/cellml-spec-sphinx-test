@@ -18,8 +18,8 @@ Equivalent CellML Infosets
 1. Two CellML Infosets shall be equivalent if one can be transformed to
    another by making zero or more of the following changes:
 
-   1. Changing the representation the XML file in ways which do not
-      change the XML Information Set represented
+   1. Changing the representation of the XML file in ways which do not
+      change the XML Information Set represented.
 
    2. Adding, removing, and/or modifying comment information items.
 
@@ -67,22 +67,18 @@ Use of namespaces
 
    1. the element information item or one of its ancestors is an element
       information item in the RDF namespace, with local name
-      RDF
-      (the RDF element information item), and,
+      RDF (the RDF element information item), and,
    2. the RDF element information item forms the top-level of a valid
-      RDF/XML tree, per production 7.2.9 in
-      .
+      RDF/XML tree, per production 7.2.9 in ?.
 
 5. CellML Infosets MUST NOT contain any element information items in the
    MathML namespace, unless:
 
    1. the element information item or one of its ancestors is an element
       information item in the MathML namespace, with local name
-      math
-      (the math element information item), and,
+      math (the math element information item), and,
    2. the math element information item forms the top-level of a valid
-      MathML tree, as described in
-      .
+      MathML tree, as described in ?.
 
 Extension information items
 ---------------------------

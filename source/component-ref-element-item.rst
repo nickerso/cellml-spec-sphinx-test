@@ -1,7 +1,7 @@
 The component\_ref element information item
 ===========================================
 
-component\_ref element information items (referred to in this
+Component\_ref element information items (referred to in this
 specification as component\_ref elements) are element information items
 in the CellML 1.1 namespace with local name equal to component\_ref.
 

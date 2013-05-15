@@ -166,7 +166,7 @@ Variable equivalence networks
 13. For the purposes of this specification, the variable elements in a
     CellML Model SHALL be treated as belonging to one of several
     disjoint sets of connected variables. Each set of connected
-    variables is a set of all variable elements for which the
+    variables is the set of all variable elements for which the
     corresponding nodes in the variable equivalence network form a
     weakly connected subgraph. Each set of connected variables
     represents one variable in the mathematical model.
@@ -442,7 +442,7 @@ The effect of units on variables
 --------------------------------
 
 1. The units attribute on a variable element MUST be a valid units
-   reference. The target of this units reference is referred to in as
+   reference. The target of this units reference is referred to as
    the variable units, and the corresponding base units reduction is
    referred to as the variable base unit reduction.
 
