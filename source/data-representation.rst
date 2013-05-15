@@ -29,12 +29,12 @@ specification:
 
    1. SHALL be a base 10 representation of an integer.
 
-      When the integer being represented is negative, SHALL consist of
+   2. When the integer being represented is negative, SHALL consist of
       the Basic Latin hyphen-minus character U+002D, followed by the
       non-negative integer string representation of the absolute value
       of the integer.
 
-      When the integer being represented is non-negative, SHALL consist
+   3. When the integer being represented is non-negative, SHALL consist
       of the non-negative integer string representation of the integer.
 
 4. A basic real number string:
@@ -46,12 +46,14 @@ specification:
 
    3. MAY contain a single decimal point separator, which SHALL be the
       basic Latin full stop character U+002E.
+
    4. Other than the sign indicator and the decimal point separator,
       SHALL consist only of European numeric characters.
 
 5. A real number string:
 
-   1. SHALL be a base 10 representation of a real number r = s × 10 e,
+   1. SHALL be a base 10 representation of a real number
+      r = s × 10\ :sup:`e`,
       where s is the significand, a real number, and e is the exponent,
       an integer.
 

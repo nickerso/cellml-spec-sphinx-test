@@ -22,8 +22,8 @@ CellML Specification : Unofficial working draft
    map-components-element
    map-variables-element
    group-element-item
-   component-ref-element-item
    relationship-ref-element-item
+   component-ref-element-item
    import-element-item
    import-component-element-item
    import-units-element-item

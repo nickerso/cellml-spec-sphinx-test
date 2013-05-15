@@ -10,15 +10,18 @@ Specific information items
 
 1. Every unit element MUST contain a units attribute information item in
    the empty namespace. The value of the units attribute MUST be a valid
-   units reference, as defined in ?. The units element inclusion digraph
-   SHALL be a conceptual digraph defined for the purpose of the
-   constraint in this paragraph, and which contains one node for every
-   units element in the CellML Model. The units element inclusion
-   digraph SHALL contain an arc from units element A to units element B
-   if and only if units element A contains a unit element with units
-   attribute value that is a units reference to units element B. The
-   value of the units attribute MUST NOT be such that the units element
-   inclusion digraph contains one or more cycles.
+   units reference, as defined in ?.
+
+   1. The units element inclusion digraph SHALL be a conceptual digraph
+      defined for the purpose of the constraint in the next paragraph,
+      and SHALL contain one node for every units element in the CellML
+      Model. The units element inclusion digraph SHALL contain an arc
+      from units element A to units element B if and only if units
+      element A contains a unit element with units attribute value that
+      is a units reference to units element B.
+
+   2. The value of the units attribute MUST NOT be such that the units
+      element inclusion digraph contains one or more cycles.
 
 2. A unit element MAY contain any of the following attribute information
    items in the empty namespace:

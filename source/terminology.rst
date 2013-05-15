@@ -48,6 +48,9 @@ Extension Namespace
     \http://www.w3.org/XML/1998/namespace, \http://www.w3.org/2000/xmlns/,
     \http://www.w3.org/1999/xlink, or the empty namespace.
 
+CellML Information Item
+    Any information item in a CellML namespace.
+
 Basic Latin alphabetic character
     A Unicode character in the range U+0041 to U+005A or in the range
     U+0061 to U+007A.
