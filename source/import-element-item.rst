@@ -25,4 +25,6 @@ Specific information items
 
    2. an import units element (?).
 
-
+3. The imported CellML Infoset SHALL NOT be equivalent to this CellML
+   Infoset. Any CellML Infoset imported, directly or indirectly, by the
+   imported CellML Infoset SHALL NOT be equivalent to this CellML Infoset.
