@@ -5,12 +5,12 @@ CellML and XML
 --------------
 
 1. Every CellML infoset SHALL be represented in an XML document which
-   conforms with the well-formedness requirements of the XML 1.0
-   specification ?.
+   conforms with the well-formedness requirements of the `XML 1.0
+   specification <http://www.w3.org/TR/REC-xml/>`_.
 
 2. In this document, the remaining provisions relating to CellML
    infosets shall be interpreted as being constraints on the XML
-   Information Set represented by that CellML infoset.
+   information set represented by that CellML infoset.
 
 Equivalent CellML infosets
 --------------------------
@@ -19,7 +19,7 @@ Equivalent CellML infosets
    another by making zero or more of the following changes:
 
    1. Changing the representation of the XML file in ways which do not
-      change the XML Information Set represented.
+      change the XML information set represented.
 
    2. Adding, removing, and/or modifying comment information items.
 

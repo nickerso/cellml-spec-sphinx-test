@@ -11,7 +11,7 @@ interpreted as described in `XML Information Set <http://www.w3.org/TR/xml-infos
 
 CellML infoset
 --------------
-    An XML Information Set containing a hierarchy of information items
+    An XML information set containing a hierarchy of information items
     conforming to the rules described in this document.
 
 CellML model
