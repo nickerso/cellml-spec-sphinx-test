@@ -3,11 +3,11 @@ Definitions
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
-document are to be interpreted as described in `RFC 2119 <http://www.apps.ietf.org/rfc/rfc2119.html>`_.
+document are to be interpreted as described in `RFC 2119 <http://www.ietf.org/rfc/rfc2119.txt>`_.
 
 The key phrase "information item", as well as any specific type of
 information item such as an "element information item", are to be
-interpreted as described in `XML Information Set <http://www.w3.org/TR/xml-infoset/>`_.
+interpreted as described in `XML Information Set <http://www.w3.org/TR/2004/REC-xml-infoset-20040204/>`_.
 
 CellML infoset
 --------------
@@ -26,7 +26,7 @@ CellML processing software
 
 Namespace
 ---------
-    An XML namespace, as defined in `Namespaces in XML <http://www.w3.org/TR/REC-xml-names/>`_.
+    An XML namespace, as defined in `Namespaces in XML <http://www.w3.org/TR/2006/REC-xml-names-20060816/>`_.
 
 CellML namespace
 ----------------
@@ -93,4 +93,4 @@ Whitespace character
 
 RDF triple
 ----------
-    As defined in `RDF Concepts and Abstract Syntax <http://www.w3.org/TR/rdf-concepts/>`_.
+    As defined in `RDF Concepts and Abstract Syntax <http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/>`_.
