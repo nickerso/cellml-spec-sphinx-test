@@ -6,7 +6,7 @@ CellML and XML
 
 1. Every CellML infoset SHALL be represented in an XML document which
    conforms with the well-formedness requirements of the `XML 1.0
-   specification <http://www.w3.org/TR/REC-xml/>`_.
+   <http://www.w3.org/TR/REC-xml/>`_.
 
 2. In this document, the remaining provisions relating to CellML
    infosets shall be interpreted as being constraints on the XML
@@ -38,7 +38,7 @@ Equivalent CellML infosets
       number of whitespace characters at the beginning or end of a
       character information item.
 
-2. CellML Processing Software MUST treat CellML infosets which are
+2. CellML processing software MUST treat CellML infosets which are
    equivalent according to the above rules in an identical fashion.
 
 Character information items
@@ -58,34 +58,35 @@ Use of namespaces
    which are children of element information items in a CellML
    namespace, except as permitted in this specification.
 
-3. CellML Processing Software SHOULD NOT attempt to process CellML
+3. CellML processing software SHOULD NOT attempt to process CellML
    infosets which contain information items in a CellML namespace other
-   than the CellML 1.1 or CellML 1.2 namespaces.
+   than the CellML 1.0, CellML 1.1 or CellML 1.2 namespaces.
 
 4. CellML infosets MUST NOT contain any element information items in the
    RDF namespace, unless:
 
    1. the element information item or one of its ancestors is an element
       information item in the RDF namespace, with local name
-      RDF (the RDF element information item), and,
+      ``RDF`` (the RDF element information item); and
    2. the RDF element information item forms the top-level of a valid
-      RDF/XML tree, per production 7.2.9 in ?.
+      RDF/XML tree, per `production 7.2.9 <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/#RDF>`_
+      in `RDF/XML Syntax Specification <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/>`_.
 
 5. CellML infosets MUST NOT contain any element information items in the
    MathML namespace, unless:
 
    1. the element information item or one of its ancestors is an element
       information item in the MathML namespace, with local name
-      math (the math element information item), and,
+      ``math`` (the math element information item); and
    2. the math element information item forms the top-level of a valid
-      MathML tree, as described in ?.
+      MathML tree, as described in `MathML 2.0 <http://www.w3.org/TR/2003/REC-MathML2-20031021/>`_.
 
 Extension information items
 ---------------------------
 
 1. CellML infosets MAY contain zero or more element or attribute
    information items in an extension namespace (extension information
-   items), as children of CellML Information Items.
+   items), as children of CellML information items.
 
 2. Information items in the empty namespace, which appear as children of
    extension element information items, SHALL also be treated as
@@ -98,15 +99,15 @@ Extension information items
    information items not disallowed by this specification or a
    referenced normative specification.
 
-4. CellML Processing Software MUST NOT raise an error solely because it
+4. CellML processing software MUST NOT raise an error solely because it
    encounters an unrecognised extension element.
 
-5. CellML Processing Software which reads CellML and then writes a
+5. CellML processing software which reads CellML and then writes a
    modified version back out SHOULD preserve unrecognised extension
    information items when the parent information item is not modified.
 
-6. CellML Processing Software MUST NOT allow the mathematical
-   interpretation of a CellML Model to be altered by any information
+6. CellML processing software MUST NOT allow the mathematical
+   interpretation of a CellML model to be altered by any information
    present in extension information items.
 
 7. For the avoidance of doubt, extension information items MUST NOT
@@ -116,21 +117,22 @@ Identifiers
 -----------
 
 1. Any element information item in the CellML namespace MAY contain an
-   attribute information item with name id, in the CellML Metadata
-   Namespace. This attribute information item SHALL be treated as having
-   attribute type ID, as defined in section 3.3.1 of ?.
+   attribute information item with local name ``id``, in the CellML metadata
+   namespace. This attribute information item SHALL be treated as having
+   attribute type ID, as defined in `section 3.3.1 <http://www.w3.org/TR/REC-xml/#sec-attribute-types>`_
+   of `XML 1.0 <http://www.w3.org/TR/REC-xml/>`_.
 
 Specific information items
 --------------------------
 
 1. A specific information item is an information item which is not:
 
-   1. a comment information item, or,
+   1. a comment information item;
 
-   2. a character information item, or,
+   2. a character information item;
 
    3. an extension information item or a descendant of such an
-      information item, or,
+      information item; or
 
    4. a namespace information item.
 
@@ -140,35 +142,41 @@ Specific information items
 
 3. The order in which specific information items appear as children of
    an element information item defined in this specification SHALL NOT
-   affect the interpretation of the CellML Model.
+   affect the interpretation of the CellML model.
 
-RDF Element Information Items
+RDF element information items
 -----------------------------
 
 1. Every element information item in the CellML namespace MAY contain
-   zero or more RDF Element Information Item children.
+   zero or more RDF element information item children.
 
-2. An RDF Element Information Item SHALL be an element item in the RDF
+2. An RDF element information item SHALL be an element item in the RDF
    namespace, with local name ``RDF`` (the RDF element information
    item), and MUST form the top-level of a valid RDF/XML tree, per
-   production 7.2.9 in ?.
+   `production 7.2.9 <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/#RDF>`_
+   in `RDF/XML Syntax Specification <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/>`_.
 
-3. An RDF Element Information Item MUST NOT appear in a CellML infoset
+3. An RDF element information item MUST NOT appear in a CellML infoset
    except as allowed by rule 1 above.
 
-4. CellML Processing Software MUST NOT allow the mathematical
-   interpretation of a CellML Model to be altered by any information
+.. todo::
+
+    Specify exactly which rule 1 we are we talking about here. I.e.,
+    ideally, we would have something like "... except as allowed by 2.x.y."
+
+4. CellML processing software MUST NOT allow the mathematical
+   interpretation of a CellML model to be altered by any information
    present in RDF data.
 
-5. The "set of all RDF triples" associated with a CellML infoset SHALL
+5. The set of all RDF triples associated with a CellML infoset SHALL
    refer to the union of all sets of RDF triples produced by parsing all
-   the RDF Element Information Items according to the RDF/XML
-   specification.
+   the RDF element information items according to the `RDF/XML Syntax
+   Specification <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/>`_.
 
 6. Two CellML infosets which differ only by the addition, removal, or
-   modification of RDF Element Information Items (or Information Items
+   modification of RDF element information items (or information items
    descended from them), but which have the same set of all RDF triples,
    SHALL be termed RDF-equivalent CellML infosets.
 
-7. CellML Processing Software MUST NOT treat RDF-equivalent CellML
+7. CellML processing software MUST NOT treat RDF-equivalent CellML
    infosets differently.

@@ -32,6 +32,10 @@ CellML namespace
 ----------------
     Any namespace starting with ``http://www.cellml.org/cellml/``.
 
+CellML 1.0 namespace
+--------------------
+    The namespace ``http://www.cellml.org/cellml/1.0#``.
+
 CellML 1.1 namespace
 --------------------
     The namespace ``http://www.cellml.org/cellml/1.1#``.

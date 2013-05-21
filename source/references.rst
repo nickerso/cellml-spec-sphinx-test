@@ -20,7 +20,7 @@ Syntax <http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/>`_ 10
 February 2004
 
 `RDF/XML Syntax Specification
-(revised) <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/>`_
+(Revised) <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/>`_
 10 February 2004
 
 `Mathematical Markup Language (MathML) Version 2.0 (Second

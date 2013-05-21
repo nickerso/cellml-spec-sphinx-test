@@ -15,7 +15,7 @@ Specific information items
    1. The units element inclusion digraph SHALL be a conceptual digraph
       defined for the purpose of the constraint in the next paragraph,
       and SHALL contain one node for every units element in the CellML
-      Model. The units element inclusion digraph SHALL contain an arc
+      model. The units element inclusion digraph SHALL contain an arc
       from units element A to units element B if and only if units
       element A contains a unit element with units attribute value that
       is a units reference to units element B.

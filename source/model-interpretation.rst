@@ -5,7 +5,7 @@ Component reference
 -------------------
 
 1. A component reference SHALL be the name of a component, and SHALL be
-   interpreted based on the context within the CellML Model in which it
+   interpreted based on the context within the CellML model in which it
    occurs.
 
 2. A component reference present in an information item which is a
@@ -23,7 +23,7 @@ Component reference
    specified in the component\_ref attribute of the import component
    element.
 
-5. It is noted for the avoidance of doubt that CellML Models MAY apply
+5. It is noted for the avoidance of doubt that CellML models MAY apply
    the previous rule recursively, to reference an import component
    element which in turn references another import component element.
 
@@ -108,7 +108,7 @@ Variable equivalence networks
 1.  A variable equivalence network SHALL be a directed graph with one
     node for every variable element in the CellML model.
 
-2.  For every map\_variables element present in the CellML Model, there
+2.  For every map\_variables element present in the CellML model, there
     SHALL be an arc in the variable equivalence network.
 
 3.  One endpoint of the arc in the variable equivalence network SHALL be
@@ -164,7 +164,7 @@ Variable equivalence networks
     applicable interface attribute equal to out.
 
 13. For the purposes of this specification, the variable elements in a
-    CellML Model SHALL be treated as belonging to one of several
+    CellML model SHALL be treated as belonging to one of several
     disjoint sets of connected variables. Each set of connected
     variables is the set of all variable elements for which the
     corresponding nodes in the variable equivalence network form a
@@ -182,7 +182,7 @@ Units reference
 ---------------
 
 1. A units reference SHALL be a CellML identifier, and SHALL be
-   interpreted based on the context within the CellML Model in which it
+   interpreted based on the context within the CellML model in which it
    occurs.
 
 2. A CellML infoset MUST NOT contain a units reference to which all
@@ -348,7 +348,7 @@ Interpretation of units
    the 'Is base unit?' column).
 
 2. There SHALL be one user defined base unit for every units element in the
-   CellML Model which has a base\_units attribute in the empty namespace,
+   CellML model which has a base\_units attribute in the empty namespace,
    having value yes.
 
 3. The base unit reduction of a units reference SHALL consist of a real
@@ -500,7 +500,7 @@ Interpretation of imports
    elements":
 
    1. all component elements in the top-level CellML infoset for the
-      CellML Model, and,
+      CellML model, and,
 
    2. all component elements referenced by import components in the
       top-level CellML infoset, and,
@@ -513,7 +513,7 @@ Interpretation of the mathematics
 
 .. default-role:: subscript
 
-1. Every MathML element in the CellML Model, which appears as a direct
+1. Every MathML element in the CellML model, which appears as a direct
    child information item of the MathML math element information item,
    which in turn appears as a child information item of a pertinent
    component element, SHALL be treated as a statement which holds true
@@ -538,8 +538,8 @@ Interpretation of the mathematics
    the CellML 1.1 namespace, with local name ``units``. The value of
    this attribute information item MUST be a valid units reference. The
    referenced units SHALL NOT affect the mathematical interpreation of
-   the CellML Model. However, CellML Processing Software MAY use this
+   the CellML model. However, CellML processing software MAY use this
    information to assist the user in the detection and correction of
-   units errors in the CellML Model.
+   units errors in the CellML model.
 
 .. default-role::

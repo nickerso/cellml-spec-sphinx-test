@@ -15,4 +15,4 @@
 
 .. todo::
 
-   Update the URL to the informative version of the specification.
+   Provide a 'proper' URL for the informative version of the specification.
