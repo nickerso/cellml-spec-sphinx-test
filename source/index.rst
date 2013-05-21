@@ -32,10 +32,3 @@ Summary of all TODO's
 =====================
 
 .. todolist::
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`

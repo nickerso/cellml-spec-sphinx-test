@@ -27,7 +27,7 @@ import sys, os
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.mathjax', 'sphinx.ext.todo']
 
-# set to false to hide all todo's and the todolist
+# Set to false to hide all todo's and the todolist
 todo_include_todos = True
 
 # Add any paths that contain templates here, relative to this directory.
