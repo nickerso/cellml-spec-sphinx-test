@@ -13,5 +13,3 @@ Specific information items
 
 2. Every group element MUST contain one or more component\_ref elements
    (?).
-
-

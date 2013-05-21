@@ -20,5 +20,3 @@ Specific information items
 3. In addition, component\_ref elements
    which are children of group elements MUST contain at least one
    component\_ref element child.
-
-

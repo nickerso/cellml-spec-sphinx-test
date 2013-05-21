@@ -13,5 +13,3 @@ Specific information items
 
 2. Every connection element MUST contain one or more map\_variables
    element (?).
-
-

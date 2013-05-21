@@ -23,5 +23,3 @@ Specific information items
    attribute on a component or import component element in the CellML
    infoset. It MUST NOT be equal to the value of the component\_1
    attribute.
-
-

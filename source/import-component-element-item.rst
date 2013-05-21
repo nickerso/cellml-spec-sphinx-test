@@ -23,5 +23,3 @@ Specific information items
    infoset. The value of the component\_ref attribute MUST NOT match the
    value of the component\_ref attribute on any sibling import component
    element.
-
-

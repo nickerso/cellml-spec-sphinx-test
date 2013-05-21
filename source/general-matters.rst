@@ -172,5 +172,3 @@ RDF Element Information Items
 
 7. CellML Processing Software MUST NOT treat RDF-equivalent CellML
    infosets differently.
-
-

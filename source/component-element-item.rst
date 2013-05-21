@@ -25,5 +25,3 @@ Specific information items
       tree, as described in ?.
 
    3. a units element (?).
-
-

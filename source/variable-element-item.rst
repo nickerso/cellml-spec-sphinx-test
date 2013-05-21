@@ -33,5 +33,3 @@ Specific information items
 
    3. The initial\_value attribute. If the attribute is present, it MUST
       meet the requirements described in ?.
-
-

@@ -41,5 +41,3 @@ Specific information items
 
    4. The exponent attribute. If present, the value of the attribute
       MUST be a real number string.
-
-

@@ -31,5 +31,3 @@ Specific information items
    yes, then the following paragraph does not apply.
 
 3. A units element MAY contain one or more unit element children (?).
-
-

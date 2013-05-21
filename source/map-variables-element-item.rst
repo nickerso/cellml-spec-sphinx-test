@@ -24,5 +24,3 @@ Specific information items
    variable element child of the component element referenced by the
    component\_2 attribute on the map\_components element which is a
    sibling of this element.
-
-

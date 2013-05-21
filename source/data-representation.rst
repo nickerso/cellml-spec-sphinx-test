@@ -74,5 +74,3 @@ specification:
       exponent's value. The exponent separator character SHALL be either
       the Unicode Basic Latin character 'E' or the Unicode Basic Latin
       character 'e'.
-
-

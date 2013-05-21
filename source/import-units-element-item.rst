@@ -22,5 +22,3 @@ Specific information items
    element in the imported CellML infoset. The value of the units\_ref
    attribute MUST NOT match the value of the units\_ref attribute on any
    sibling import units element.
-
-
