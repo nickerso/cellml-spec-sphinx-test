@@ -1,17 +1,12 @@
-.. CellML Specifications documentation master file, created by
-   sphinx-quickstart on Tue Nov 13 11:59:15 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-CellML Specification : Unofficial working draft
-===============================================
+CellML 1.2 Specification
+========================
 
 .. include:: abstract.rst
-   
+
 .. toctree::
    :maxdepth: 2
    :numbered:
-   
+
    terminology
    general-matters
    data-representation
@@ -31,7 +26,7 @@ CellML Specification : Unofficial working draft
    unit-element-item
    model-interpretation
    normative-references
-   
+
 
 Summary of all TODO's
 =====================
@@ -44,4 +39,3 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`search`
-

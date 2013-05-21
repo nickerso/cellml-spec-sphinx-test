@@ -18,7 +18,7 @@ Specific information items
 
 2. In the event that the relationship attribute is in
    the empty namespace, it MUST either take the value encapsulation or
-   containment. 
+   containment.
 
 3. There MUST NOT exist a sibling
    relationship\_ref element such that the namespace of the relationship

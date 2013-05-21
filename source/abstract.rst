@@ -1,11 +1,18 @@
-    This document is an unofficial working draft. The below describes
-    the intended status of the specification, and not the current status
-    right now.
+   This document is an unofficial working draft. The below describes
+   the intended status of the specification, and not its current status.
 
-    This document specifies CellML 1.2, an XML-based language for
-    describing and exchanging mathematical models.
+   This document specifies version 1.2 of `CellML <http://www.cellml.org/>`_,
+   an `XML <http://www.w3.org/XML/>`_-based language for
+   describing and exchanging mathematical models.
 
-    This is the *normative* specification of CellML. It is intended to
-    provide the minimum amount of information needed to accurately
-    describe CellML. An alternative version is available which is
-    annotated with much more explanatory material.
+   This is the *normative* specification of CellML. It is intended to
+   provide the minimum amount of information needed to describe CellML.
+   An |informativeSpecification|_ is available which is annotated with
+   much more explanatory material.
+
+.. _informativeSpecification: http://www.cellml.org/
+.. |informativeSpecification| replace:: *informative* specification
+
+.. todo::
+
+   Update the URL to the informative version of the specification.
