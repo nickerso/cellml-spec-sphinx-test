@@ -17,7 +17,7 @@ CellML infoset
 CellML model
 ------------
     A mathematical model represented by a hierarchy of one or more
-    CellML Infosets, according to the rules described in this document.
+    CellML infosets, according to the rules described in this document.
 
 CellML processing software
 --------------------------

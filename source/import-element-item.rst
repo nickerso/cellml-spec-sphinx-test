@@ -14,8 +14,8 @@ Specific information items
    in section 5.4 of the XLink specification (?). The href attribute
    SHALL be treated according to the XLink specification, by applying
    the rules for simple-type elements. When describing an import element
-   or one of its children, the phrase "imported CellML Infoset" SHALL
-   refer to the CellML Infoset obtained by parsing the XML document
+   or one of its children, the phrase "imported CellML infoset" SHALL
+   refer to the CellML infoset obtained by parsing the XML document
    referenced by the href attribute.
 
 2. Every import element MAY contain zero or more specific information
@@ -25,6 +25,6 @@ Specific information items
 
    2. an import units element (?).
 
-3. The imported CellML Infoset SHALL NOT be equivalent to this CellML
-   Infoset. Any CellML Infoset imported, directly or indirectly, by the
-   imported CellML Infoset SHALL NOT be equivalent to this CellML Infoset.
+3. The imported CellML infoset SHALL NOT be equivalent to this CellML
+   infoset. Any CellML infoset imported, directly or indirectly, by the
+   imported CellML infoset SHALL NOT be equivalent to this CellML infoset.

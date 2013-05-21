@@ -185,7 +185,7 @@ Units reference
    interpreted based on the context within the CellML Model in which it
    occurs.
 
-2. A CellML Infoset MUST NOT contain a units reference to which all
+2. A CellML infoset MUST NOT contain a units reference to which all
    scoping rules are inapplicable.
 
 3. Where more than one of the units scoping rules apply, the applicable
@@ -205,7 +205,7 @@ Units reference
       units reference, then the units reference SHALL refer to that
       units element.
 
-   3. Where there is an import units element in the CellML Infoset, such
+   3. Where there is an import units element in the CellML infoset, such
       that the import units element has a name attribute identical to
       the units reference, then the units reference SHALL be treated as
       if the units reference appeared in the imported model, and
@@ -492,18 +492,18 @@ Interpretation of initial values
 Interpretation of imports
 -------------------------
 
-1. Each import element present in a CellML Infoset (the importing
+1. Each import element present in a CellML infoset (the importing
    infoset) SHALL define a new and separate instance of the CellML
-   Infoset referenced by the href attribute (the imported infoset).
+   infoset referenced by the href attribute (the imported infoset).
 
 2. The following component elements SHALL be "pertinent component
    elements":
 
-   1. all component elements in the top-level CellML Infoset for the
+   1. all component elements in the top-level CellML infoset for the
       CellML Model, and,
 
    2. all component elements referenced by import components in the
-      top-level CellML Infoset, and,
+      top-level CellML infoset, and,
 
    3. all component elements which are descendants in the encapsulation
       digraph of a pertinent component element.

@@ -12,7 +12,7 @@ Specific information items
    item in the empty namespace and with local name component. The value
    of this attribute MUST be a valid CellML identifier, and MUST match
    the name attribute on a component or import component element in the
-   CellML Infoset.
+   CellML infoset.
 
 2. Every component\_ref element MAY in turn contain zero or more
    component\_ref element children.

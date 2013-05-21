@@ -4,18 +4,18 @@ General matters
 CellML and XML
 --------------
 
-1. Every CellML Infoset SHALL be represented in an XML document which
+1. Every CellML infoset SHALL be represented in an XML document which
    conforms with the well-formedness requirements of the XML 1.0
    specification ?.
 
 2. In this document, the remaining provisions relating to CellML
-   Infosets shall be interpreted as being constraints on the XML
-   Information Set represented by that CellML Infoset.
+   infosets shall be interpreted as being constraints on the XML
+   Information Set represented by that CellML infoset.
 
-Equivalent CellML Infosets
+Equivalent CellML infosets
 --------------------------
 
-1. Two CellML Infosets shall be equivalent if one can be transformed to
+1. Two CellML infosets shall be equivalent if one can be transformed to
    another by making zero or more of the following changes:
 
    1. Changing the representation of the XML file in ways which do not
@@ -38,7 +38,7 @@ Equivalent CellML Infosets
       number of whitespace characters at the beginning or end of a
       character information item.
 
-2. CellML Processing Software MUST treat CellML Infosets which are
+2. CellML Processing Software MUST treat CellML infosets which are
    equivalent according to the above rules in an identical fashion.
 
 Character information items
@@ -51,18 +51,18 @@ which consist entirely of whitespace characters.
 Use of namespaces
 -----------------
 
-1. CellML Infosets MUST NOT contain any element or attribute information
+1. CellML infosets MUST NOT contain any element or attribute information
    items, except as permitted in this specification.
 
-2. CellML Infosets MUST NOT contain any character information items
+2. CellML infosets MUST NOT contain any character information items
    which are children of element information items in a CellML
    namespace, except as permitted in this specification.
 
 3. CellML Processing Software SHOULD NOT attempt to process CellML
-   Infosets which contain information items in a CellML namespace other
+   infosets which contain information items in a CellML namespace other
    than the CellML 1.1 or CellML 1.2 namespaces.
 
-4. CellML Infosets MUST NOT contain any element information items in the
+4. CellML infosets MUST NOT contain any element information items in the
    RDF namespace, unless:
 
    1. the element information item or one of its ancestors is an element
@@ -71,7 +71,7 @@ Use of namespaces
    2. the RDF element information item forms the top-level of a valid
       RDF/XML tree, per production 7.2.9 in ?.
 
-5. CellML Infosets MUST NOT contain any element information items in the
+5. CellML infosets MUST NOT contain any element information items in the
    MathML namespace, unless:
 
    1. the element information item or one of its ancestors is an element
@@ -83,7 +83,7 @@ Use of namespaces
 Extension information items
 ---------------------------
 
-1. CellML Infosets MAY contain zero or more element or attribute
+1. CellML infosets MAY contain zero or more element or attribute
    information items in an extension namespace (extension information
    items), as children of CellML Information Items.
 
@@ -134,7 +134,7 @@ Specific information items
 
    4. a namespace information item.
 
-2. Specific information items MUST NOT appear in a CellML Infoset except
+2. Specific information items MUST NOT appear in a CellML infoset except
    where explicitly allowed by this specification, or where allowed by a
    normative specification referenced by this specification.
 
@@ -153,24 +153,24 @@ RDF Element Information Items
    item), and MUST form the top-level of a valid RDF/XML tree, per
    production 7.2.9 in ?.
 
-3. An RDF Element Information Item MUST NOT appear in a CellML Infoset
+3. An RDF Element Information Item MUST NOT appear in a CellML infoset
    except as allowed by rule 1 above.
 
 4. CellML Processing Software MUST NOT allow the mathematical
    interpretation of a CellML Model to be altered by any information
    present in RDF data.
 
-5. The "set of all RDF triples" associated with a CellML Infoset SHALL
+5. The "set of all RDF triples" associated with a CellML infoset SHALL
    refer to the union of all sets of RDF triples produced by parsing all
    the RDF Element Information Items according to the RDF/XML
    specification.
 
-6. Two CellML Infosets which differ only by the addition, removal, or
+6. Two CellML infosets which differ only by the addition, removal, or
    modification of RDF Element Information Items (or Information Items
    descended from them), but which have the same set of all RDF triples,
-   SHALL be termed RDF-equivalent CellML Infosets.
+   SHALL be termed RDF-equivalent CellML infosets.
 
 7. CellML Processing Software MUST NOT treat RDF-equivalent CellML
-   Infosets differently.
+   infosets differently.
 
 

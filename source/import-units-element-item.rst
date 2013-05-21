@@ -13,13 +13,13 @@ Specific information items
    namespace. The value of the name attribute MUST be a valid CellML
    identifier. The value of the name attribute MUST NOT be identical to
    the name attribute of any other import units or units element in the
-   CellML Infoset.
+   CellML infoset.
 
 2. Every import units element MUST contain a units\_ref attribute in the
    empty namespace. The value of the units\_ref attribute MUST be a
    valid CellML identifier. The value of the units\_ref attribute MUST
    match the value of the name attribute on a units or import units
-   element in the imported CellML Infoset. The value of the units\_ref
+   element in the imported CellML infoset. The value of the units\_ref
    attribute MUST NOT match the value of the units\_ref attribute on any
    sibling import units element.
 

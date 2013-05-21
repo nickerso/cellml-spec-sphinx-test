@@ -16,7 +16,7 @@ Specific information items
    1. Where the parent of the units element is a model element,
       the value of the name attribute MUST NOT be identical to the name
       attribute of any other units element child of that model element, or
-      of any import units element in the CellML Infoset.
+      of any import units element in the CellML infoset.
 
    2. Where the parent of the units element is a component element, the
       value of the name attribute MUST NOT be identical to the name

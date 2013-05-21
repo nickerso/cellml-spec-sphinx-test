@@ -13,7 +13,7 @@ Specific information items
    namespace. The value of the name attribute MUST be a valid CellML
    identifier. The value of the name attribute MUST NOT be identical to
    the name attribute on any other component element or import component
-   element in the CellML Infoset.
+   element in the CellML infoset.
 
 2. A component element MAY contain zero or more specific information
    item children, each of which MUST be of one of the following types:

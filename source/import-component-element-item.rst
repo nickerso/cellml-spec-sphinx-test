@@ -13,14 +13,14 @@ Specific information items
    empty namespace. The value of the name attribute MUST be a valid
    CellML identifier. The value of the name attribute MUST NOT be
    identical to the name attribute of any other import component or
-   component element in the CellML Infoset.
+   component element in the CellML infoset.
 
 2. Every import component element MUST contain a component\_ref
    attribute in the empty namespace. The value of the component\_ref
    attribute MUST be a valid CellML identifier. The value of the
    component\_ref attribute MUST match the value of the name attribute
    on a component or import component element in the imported CellML
-   Infoset. The value of the component\_ref attribute MUST NOT match the
+   infoset. The value of the component\_ref attribute MUST NOT match the
    value of the component\_ref attribute on any sibling import component
    element.
 

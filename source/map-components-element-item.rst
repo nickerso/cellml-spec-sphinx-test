@@ -14,14 +14,14 @@ Specific information items
    The value of the component\_1 attribute MUST be a valid CellML
    identifier. The value of this attribute MUST be equal to the name
    attribute on a component or import component element in the CellML
-   Infoset.
+   infoset.
 
 2. Each map\_components element MUST contain a component\_2 attribute
    in the empty namespace.
    The value of the component\_2 attribute MUST be a valid CellML
    identifier. The value of this attribute MUST be equal to the name
    attribute on a component or import component element in the CellML
-   Infoset. It MUST NOT be equal to the value of the component\_1
+   infoset. It MUST NOT be equal to the value of the component\_1
    attribute.
 
 
