@@ -25,7 +25,7 @@ CellML 1.2 Specification
    units-element-item
    unit-element-item
    model-interpretation
-   normative-references
+   references
 
 
 Summary of all TODO's
