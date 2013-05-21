@@ -7,15 +7,15 @@ CellML 1.2 Specification
    :maxdepth: 2
    :numbered:
 
-   terminology
+   definitions
    general-matters
    data-representation
    model-element-item
    component-element-item
    variable-element-item
    connection-element-item
-   map-components-element
-   map-variables-element
+   map-components-element-item
+   map-variables-element-item
    group-element-item
    relationship-ref-element-item
    component-ref-element-item
