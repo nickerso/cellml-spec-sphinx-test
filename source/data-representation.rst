@@ -1,3 +1,6 @@
+.. role:: raw-latex(raw)
+   :format: latex html
+
 Data representation formats in CellML
 =====================================
 
@@ -29,33 +32,37 @@ specification:
 
    1. SHALL be a base 10 representation of an integer.
 
-   2. When the integer being represented is negative, SHALL consist of
-      the Basic Latin hyphen-minus character U+002D, followed by the
-      non-negative integer string representation of the absolute value
-      of the integer.
+   2. SHALL, when the integer being represented is negative, consist of
+      the basic Latin hyphen-minus character `U+002D
+      <http://www.fileformat.info/info/unicode/char/002D/index.htm>`_,
+      followed by the non-negative integer string representation of the
+      absolute value of the integer.
 
-   3. When the integer being represented is non-negative, SHALL consist
+   3. SHALL, when the integer being represented is non-negative, consist
       of the non-negative integer string representation of the integer.
 
 4. A basic real number string:
 
    1. SHALL be a base 10 representation of a real number.
 
-   2. Where the number is negative, SHALL begin with the Basic Latin
-      hyphen-minus character U+002D as the sign indicator.
+   2. SHALL, when the basic real number being represented is negative,
+      begin with the basic Latin hyphen-minus character `U+002D
+      <http://www.fileformat.info/info/unicode/char/002D/index.htm>`_
+      as the sign indicator.
 
    3. MAY contain a single decimal point separator, which SHALL be the
-      basic Latin full stop character U+002E.
+      basic Latin full stop character `U+002E
+      <http://www.fileformat.info/info/unicode/char/002E/index.htm>`_.
 
-   4. Other than the sign indicator and the decimal point separator,
-      SHALL consist only of European numeric characters.
+   4. SHALL, other than the sign indicator and the decimal point
+      separator, consist only of European numeric characters.
 
 5. A real number string:
 
    1. SHALL be a base 10 representation of a real number
-      r = s × 10\ :sup:`e`,
-      where s is the significand, a real number, and e is the exponent,
-      an integer.
+      :raw-latex:`\(r = s \times 10^{e}\)`, where :raw-latex:`\(s\)`
+      is the significand, a real number, and :raw-latex:`\(e\)` is
+      the exponent, an integer.
 
    2. The representation of the number SHALL be the representation of
       the significand followed immediately by the representation of the
@@ -71,6 +78,8 @@ specification:
 
    5. An exponent SHALL be represented by an exponent separator
       character, followed by the integer string representation of the
-      exponent's value. The exponent separator character SHALL be either
-      the Unicode Basic Latin character 'E' or the Unicode Basic Latin
-      character 'e'.
+      value of the exponent. The exponent separator character SHALL be
+      either the basic Latin 'E' character `U+0045
+      <http://www.fileformat.info/info/unicode/char/0045/index.htm>`_
+      or the basic Latin 'e' character `U+0065
+      <http://www.fileformat.info/info/unicode/char/0065/index.htm>`_.
