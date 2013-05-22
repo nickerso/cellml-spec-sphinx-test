@@ -2,9 +2,9 @@ The component element information item
 ======================================
 
 Component element information items (referred to in this specification
-as component elements) are element information items in the CellML 1.1
-namespace with local name ``component``, and which appear as a child of
-a model element.
+as component elements) are element information items in the CellML 1.0,
+CellML 1.1, or CellML 1.2 namespace with local name ``component``, and
+which appear as a child of a model element.
 
 Specific information items
 --------------------------
@@ -18,10 +18,10 @@ Specific information items
 2. A component element MAY contain zero or more specific information
    item children, each of which MUST be of one of the following types:
 
-   1. a variable element (?).
+   1. a :doc:`variable element <variable-element-item>`;
 
    2. an element information item in the MathML namespace, and with
-      local name math, which MUST be the top-level of a content MathML
-      tree, as described in ?.
+      local name ``math``, which MUST be the top-level of a content MathML
+      tree, as described in `MathML 2.0 <http://www.w3.org/TR/2003/REC-MathML2-20031021/>`_; or
 
-   3. a units element (?).
+   3. a :doc:`units element <units-element-item>`.
