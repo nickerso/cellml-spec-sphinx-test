@@ -1,6 +1,3 @@
-.. role:: raw-latex(raw)
-   :format: latex html
-
 Data representation formats in CellML
 =====================================
 
@@ -60,9 +57,8 @@ specification:
 5. A real number string:
 
    1. SHALL be a base 10 representation of a real number
-      :raw-latex:`\(r = s \times 10^{e}\)`, where :raw-latex:`\(s\)`
-      is the significand, a real number, and :raw-latex:`\(e\)` is
-      the exponent, an integer.
+      :math:`r = s \times 10^{e}`, where :math:`s` is the significand,
+      a real number, and :math:`e` is the exponent, an integer.
 
    2. The representation of the number SHALL be the representation of
       the significand followed immediately by the representation of the
