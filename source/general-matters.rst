@@ -60,7 +60,7 @@ Use of namespaces
 
 3. CellML processing software SHOULD NOT attempt to process CellML
    infosets which contain information items in a CellML namespace other
-   than the CellML 1.0, CellML 1.1 or CellML 1.2 namespaces.
+   than the CellML 1.0, CellML 1.1 and CellML 1.2 namespaces.
 
 4. CellML infosets MUST NOT contain any element information items in the
    RDF namespace, unless:
