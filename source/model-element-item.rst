@@ -21,12 +21,12 @@ Specific information items
    information item children, each of which MUST be of one of the
    following types:
 
-   1. a :doc:`component element <component-element-item>`;
+   a. A :doc:`component element <component-element-item>`;
 
-   2. a :doc:`connection element <connection-element-item>`;
+   b. A :doc:`connection element <connection-element-item>`;
 
-   3. a :doc:`group element <group-element-item>`;
+   c. A :doc:`group element <group-element-item>`;
 
-   4. an :doc:`import element <import-element-item>`; or
+   d. An :doc:`import element <import-element-item>`; or
 
-   5. a :doc:`units element <units-element-item>`.
+   e. A :doc:`units element <units-element-item>`.

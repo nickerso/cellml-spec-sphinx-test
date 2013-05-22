@@ -18,17 +18,17 @@ Equivalent CellML infosets
 1. Two CellML infosets shall be equivalent if one can be transformed to
    another by making zero or more of the following changes:
 
-   1. Changing the representation of the XML file in ways which do not
+   a. Changing the representation of the XML file in ways which do not
       change the XML information set represented.
 
-   2. Adding, removing, and/or modifying comment information items.
+   b. Adding, removing, and/or modifying comment information items.
 
-   3. Changing (inserting, removing, and/or modifying) one or more
+   c. Changing (inserting, removing, and/or modifying) one or more
       namespace information items, and/or modifying the prefix of one or
       more information items, without changing the namespace that any
       information item is in.
 
-   4. The following paragraph applies only to character information
+   d. The following paragraph applies only to character information
       items which are the direct child of an element information item in
       a CellML namespace, or in the MathML or RDF namespace.
 
@@ -65,20 +65,20 @@ Use of namespaces
 4. CellML infosets MUST NOT contain any element information items in the
    RDF namespace, unless:
 
-   1. the element information item or one of its ancestors is an element
+   a. The element information item or one of its ancestors is an element
       information item in the RDF namespace, with local name
       ``RDF`` (the RDF element information item); and
-   2. the RDF element information item forms the top-level of a valid
+   b. The RDF element information item forms the top-level of a valid
       RDF/XML tree, per `production 7.2.9 <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/#RDF>`_
       in `RDF/XML Syntax Specification <http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/>`_.
 
 5. CellML infosets MUST NOT contain any element information items in the
    MathML namespace, unless:
 
-   1. the element information item or one of its ancestors is an element
+   a. The element information item or one of its ancestors is an element
       information item in the MathML namespace, with local name
       ``math`` (the math element information item); and
-   2. the math element information item forms the top-level of a valid
+   b. The math element information item forms the top-level of a valid
       MathML tree, as described in `MathML 2.0 <http://www.w3.org/TR/2003/REC-MathML2-20031021/>`_.
 
 Extension information items
@@ -127,14 +127,14 @@ Specific information items
 
 1. A specific information item is an information item which is not:
 
-   1. a comment information item;
+   a. A comment information item;
 
-   2. a character information item;
+   b. A character information item;
 
-   3. an extension information item or a descendant of such an
+   c. An extension information item or a descendant of such an
       information item; or
 
-   4. a namespace information item.
+   d. A namespace information item.
 
 2. Specific information items MUST NOT appear in a CellML infoset except
    where explicitly allowed by this specification, or where allowed by a
