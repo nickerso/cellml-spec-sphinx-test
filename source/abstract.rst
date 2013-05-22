@@ -7,11 +7,11 @@
 
    This is the *normative* specification of CellML. It is intended to
    provide the minimum amount of information needed to describe CellML.
-   An |informativeSpecification|_ is available which is annotated with
+   An |informative-specification|_ is available which is annotated with
    much more explanatory material.
 
-.. _informativeSpecification: http://www.cellml.org/
-.. |informativeSpecification| replace:: *informative* specification
+.. |informative-specification| replace:: *informative* specification
+.. _informative-specification: http://www.cellml.org/
 
 .. todo::
 
