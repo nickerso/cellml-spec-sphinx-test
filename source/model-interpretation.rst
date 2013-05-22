@@ -437,6 +437,8 @@ Interpretation of units
          products of the exponent term on the corresponding unit element
          and the exponent from the tuple.
 
+.. _the-effect-of-units-on-variables:
+
 The effect of units on variables
 --------------------------------
 
