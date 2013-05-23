@@ -10,7 +10,7 @@ Specific information items
 
 1. Every ``unit`` element MUST contain a ``units`` attribute information item in
    the empty namespace. The value of the ``units`` attribute MUST be a valid
-   units reference, as defined in :ref:`units-reference`.
+   units reference, as defined in the :ref:`units-reference` section.
 
    a. The ``units`` element inclusion digraph SHALL be a conceptual digraph
       defined for the purpose of the constraint in the next paragraph,
@@ -27,7 +27,7 @@ Specific information items
    items in the empty namespace:
 
    a. The ``prefix`` attribute. If present, the value of the attribute MUST
-      meet the constraints specified in :ref:`interpretation-of-units`.
+      meet the constraints specified in the :ref:`interpretation-of-units` section.
 
    b. The ``offset`` attribute. If present, the value of the attribute MUST
       be a real number string. If the attribute is present and has value

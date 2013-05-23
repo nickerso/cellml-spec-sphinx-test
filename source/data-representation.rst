@@ -57,7 +57,7 @@ specification:
 5. A real number string:
 
    a. SHALL be a base 10 representation of a real number
-      :math:`r = s \times 10^{e}`, where :math:`s` is the significand,
+      :math:`r = s \cdot 10^{e}`, where :math:`s` is the significand,
       a real number, and :math:`e` is the exponent, an integer.
 
    b. The representation of the number SHALL be the representation of

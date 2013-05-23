@@ -161,8 +161,7 @@ RDF element information items
 
 .. todo::
 
-    Specify exactly which rule 1 we are we talking about here. I.e.,
-    ideally, we would have something like "... except as allowed by 2.x.y."
+    Find out which rule 1 we are we talking about here.
 
 4. CellML processing software MUST NOT allow the mathematical
    interpretation of a CellML model to be altered by any information
