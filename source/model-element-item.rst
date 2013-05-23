@@ -1,33 +1,32 @@
-The model element information item
-==================================
+The ``model`` element information item
+======================================
 
-Top-level of CellML Infosets
+Top-level of CellML infosets
 ----------------------------
 
-The top-level element information item in a CellML Infoset MUST be an
-element information item in the CellML 1.1 namespace, with local name
-model. This element information item is referred to in this
-specification as the model element.
+The top-level element information item in a CellML infoset MUST be an
+element information item in the CellML namespace, with local name
+``model``. This element information item is referred to in this
+specification as the ``model`` element.
 
 Specific information items
 --------------------------
 
-1. Every model element MUST contain a name attribute in the empty
-   namespace. The value of the name attribute MUST be a valid CellML
+1. Every ``model`` element MUST contain a ``name`` attribute in the empty
+   namespace. The value of the ``name`` attribute MUST be a valid CellML
    identifier, and SHALL be interpreted as a unique identifier for the
-   CellML Infoset.
+   CellML infoset.
 
-2. A model element MAY contain zero or more additional specific
+2. A ``model`` element MAY contain zero or more additional specific
    information item children, each of which MUST be of one of the
    following types:
 
-   1. a component element (?),
+   a. A ``component`` element;
 
-   2. a connection element (?),
+   b. A ``connection`` element;
 
-   3. a group element (?),
+   c. A ``group`` element;
 
-   4. an import element (?),
+   d. An ``import`` element; or
 
-   5. a units element (?).
-
+   e. A ``units`` element.
