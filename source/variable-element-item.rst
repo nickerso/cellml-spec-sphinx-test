@@ -1,27 +1,27 @@
-The variable element information item
-=====================================
+The ``variable`` element information item
+=========================================
 
-Variable element information items (referred to in this specification as
-variable elements) are element information items in the CellML 1.0,
-CellML 1.1, or CellML 1.2 namespace with local name equal to variable,
-and which appear as a child of a component element.
+``variable`` element information items (referred to in this specification as
+``variable`` elements) are element information items in the CellML namespace
+with local name equal to ``variable``, and which appear as a child of a
+``component`` element.
 
 Specific information items
 --------------------------
 
-1. Every variable element MUST have each of the following attribute
+1. Every ``variable`` element MUST have each of the following attribute
    information items in the empty namespace:
 
-   a. The name attribute. The value of the name attribute MUST be a
-      valid CellML Identifier. The value of the name attribute MUST NOT
-      be identical to the name attribute on any sibling variable
+   a. The ``name`` attribute. The value of the ``name`` attribute MUST be a
+      valid CellML Identifier. The value of the ``name`` attribute MUST NOT
+      be identical to the ``name`` attribute on any sibling ``variable``
       element.
 
-   b. The units attribute. The value of the units attribute MUST be a
+   b. The ``units`` attribute. The value of the ``units`` attribute MUST be a
       valid CellML Identifier, and MUST meet the constraints described
       in :ref:`the effect of units on variables <the-effect-of-units-on-variables>`.
 
-2. Every variable element MAY contain one or more of the following
+2. Every ``variable`` element MAY contain one or more of the following
    attribute information items in the empty namespace:
 
    a. The ``public_interface`` attribute. If the attribute is present, it
