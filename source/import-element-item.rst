@@ -1,5 +1,5 @@
 The ``import`` element information item
-===================================
+=======================================
 
 ``import`` element information items (referred to in this specification as
 ``import`` elements) are element information items in the CellML namespace

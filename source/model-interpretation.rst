@@ -178,6 +178,8 @@ Variable equivalence networks
     the mathematical model is described as if it was in the units
     specified on the source variable element.
 
+.. _units-reference:
+
 Units reference
 ---------------
 
@@ -215,6 +217,8 @@ Units reference
    4. Where the units reference is equal to a cell in the name column of
       ?, then the units reference SHALL be a reference to the built-in
       unit corresponding to that row of the table.
+
+.. _built-in-units:
 
 .. default-role:: superscript
 
@@ -340,6 +344,8 @@ Units reference
    | yocto         | -24           |
    +---------------+---------------+
 
+.. _interpretation-of-units:
+
 Interpretation of units
 -----------------------
 
@@ -437,10 +443,10 @@ Interpretation of units
          products of the exponent term on the corresponding unit element
          and the exponent from the tuple.
 
-.. _the-effect-of-units-on-variables:
+.. _effect-of-units-on-variables:
 
-The effect of units on variables
---------------------------------
+Effect of units on variables
+----------------------------
 
 1. The units attribute on a variable element MUST be a valid units
    reference. The target of this units reference is referred to as

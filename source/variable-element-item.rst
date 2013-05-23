@@ -19,7 +19,7 @@ Specific information items
 
    b. The ``units`` attribute. The value of the ``units`` attribute MUST be a
       valid CellML Identifier, and MUST meet the constraints described
-      in :ref:`the effect of units on variables <the-effect-of-units-on-variables>`.
+      in :ref:`effect-of-units-on-variables`.
 
 2. Every ``variable`` element MAY contain one or more of the following
    attribute information items in the empty namespace:
