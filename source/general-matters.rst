@@ -161,7 +161,7 @@ RDF element information items
 
 .. todo::
 
-    Find out which rule 1 we are we talking about here.
+    Find out which rule 1 we are we talking about here. Andre: it is the rule 1 just here (2.8.1 currently) but need to work out how to properly reference other rules. Probably shouldn't rely on section numbers being consistent.
 
 4. CellML processing software MUST NOT allow the mathematical
    interpretation of a CellML model to be altered by any information
